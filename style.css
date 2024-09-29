@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+
+}
+body {
+  background-color: #405D72;
+  color: #F7E7DC;
+}
+
+#game-container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+header, #score-box {
+  border: 3px solid #758694;
+}
+
+header, #score-box, button {
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+  padding: 0 25px;
+  border-radius: 10px;
+}
+
+h1 {
+  width: 50px;
+  line-height: 0.8;
+  letter-spacing: 0.5;
+}
+
+#score-box {
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#game-message {
+  margin: 25px;
+  height: 70px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#userChoice, #cpuChoice {
+  white-space: pre-wrap;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#cpuChoice {
+  text-align: end;
+}
+
+#message {
+  text-align: center;
+}
+
+#game-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px;
+
+}
+
+button {
+  color: #F7E7DC;;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: #758694;
+}
+
+button:hover {
+  background-color: #5f6d79;
+  transition: background-color 0.3s;
+}
+
+.how-to-play {
+  margin: 60px auto;
+}
+
+hr {
+  color: #758694;
+  margin: 10px auto;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+li {
+  margin: 10px 0;
+}
